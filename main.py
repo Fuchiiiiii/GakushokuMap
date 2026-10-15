@@ -2,7 +2,6 @@ from maps.GakushokuSample import GakushokuSample
 from maps.KawachiGakushoku import KawachiGakushoku
 
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
-data = [GakushokuSample(), ]
 data = [KawachiGakushoku(), GakushokuSample(), ]
 
 for rank, d in enumerate(data, start=1):
